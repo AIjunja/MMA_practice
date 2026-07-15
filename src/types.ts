@@ -32,3 +32,22 @@ export interface Facility {
   regionMismatch: boolean
   qualityFlags: string[]
 }
+
+export interface GyeonggiRegionShape {
+  region: string
+  displayName: string
+  paths: string[]
+  label: [number, number]
+}
+
+export interface FacilityPhoto {
+  id: string
+  facilityNames: string[]
+  imageUrl: string
+  sourceUrl: string
+  author: string
+  license: string
+  licenseUrl: string
+  alt: string
+  objectPosition: string
+}

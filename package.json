@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "prepare:data": "node scripts/prepare-data.mjs",
+    "prepare:map": "node scripts/prepare-map.mjs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "test": "vitest run",

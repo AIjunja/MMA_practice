@@ -252,55 +252,54 @@ input:focus-visible {
 .map-caption span, .map-caption small { display: block; }
 .map-caption span { font-size: 14px; font-weight: 700; }
 .map-caption small { margin-top: 4px; color: var(--muted); font-size: 11px; font-weight: 500; }
+.map-caption > a { display: inline-flex; align-items: center; gap: 4px; margin-left: auto; color: var(--muted); font-size: 10px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.map-caption > a:hover { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
+.map-caption > a svg { width: 12px; }
 
-.gyeonggi-map { position: relative; height: 620px; margin: 8px auto 0; overflow: hidden; }
-.map-shape {
-  position: absolute;
-  inset: 8% 8% 2%;
-  clip-path: polygon(41% 0, 66% 5%, 79% 16%, 94% 32%, 89% 49%, 97% 67%, 87% 83%, 67% 94%, 49% 100%, 32% 91%, 19% 77%, 6% 60%, 12% 42%, 2% 26%, 18% 13%);
-  background: #e4e9e1;
-  border: 1px solid #cad0c7;
-  box-shadow: inset 0 0 0 2px rgba(255,255,255,.7);
+.gyeonggi-map {
+  position: relative;
+  display: grid;
+  height: 780px;
+  margin: 12px auto 0;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 52% 45%, rgba(255,255,255,.96) 0 33%, rgba(232,238,245,.65) 76%, transparent 77%),
+    repeating-linear-gradient(135deg, transparent 0 17px, rgba(18,54,101,.022) 17px 18px);
 }
-.map-shape::after {
-  content: '';
-  position: absolute;
-  inset: 7%;
-  clip-path: inherit;
-  background: repeating-linear-gradient(135deg, transparent 0 13px, rgba(18,54,101,.035) 13px 14px);
-}
-.map-marker {
-  --marker: 9px;
-  position: absolute;
-  z-index: 2;
-  left: var(--x);
-  top: var(--y);
-  width: var(--marker);
-  height: var(--marker);
-  padding: 0;
-  transform: translate(-50%, -50%);
-  border: 2px solid white;
-  border-radius: 50%;
-  background: var(--navy);
-  box-shadow: 0 2px 8px rgba(10,37,73,.25);
-  cursor: pointer;
-}
-.map-marker span {
-  position: absolute;
-  left: 50%;
-  top: 9px;
-  transform: translateX(-50%);
-  padding: 2px 4px;
-  border-radius: 4px;
-  background: rgba(255,253,248,.82);
-  color: var(--navy-deep);
-  font-size: 9px;
+.gyeonggi-map svg { width: 100%; height: 100%; overflow: visible; }
+.map-region { outline: none; }
+.map-region--ready { cursor: pointer; }
+.map-region path { fill: #d8dcd6; stroke: #fffdf8; stroke-width: 1.5px; vector-effect: non-scaling-stroke; transition: fill 180ms ease, filter 180ms ease; }
+.map-region--ready path { fill: #c7d6e5; }
+.map-region--ready:nth-of-type(3n) path { fill: #d2dde8; }
+.map-region--ready:nth-of-type(4n) path { fill: #bccddd; }
+.map-region text {
+  fill: var(--navy-deep);
+  stroke: rgba(255,253,248,.92);
+  stroke-width: 4px;
+  paint-order: stroke;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  font-size: 12px;
   font-weight: 700;
-  line-height: 1.1;
-  white-space: nowrap;
+  letter-spacing: -.08em;
 }
-.map-marker:hover, .map-marker:focus-visible { z-index: 5; width: 15px; height: 15px; background: var(--gold); }
-.map-marker:hover span, .map-marker:focus-visible span { top: 14px; background: var(--navy-deep); color: white; font-size: 11px; }
+.map-region--empty text { fill: #89909a; }
+.map-region--ready:hover path,
+.map-region--ready:focus path { fill: var(--navy); filter: drop-shadow(0 5px 6px rgba(10,37,73,.22)); }
+.map-region--ready:hover text,
+.map-region--ready:focus text { fill: white; stroke: var(--navy-deep); }
+.map-region--ready:focus-visible path { stroke: var(--gold); stroke-width: 4px; }
+
+.map-legend { display: flex; align-items: center; flex-wrap: wrap; gap: 11px 16px; margin-top: 7px; color: var(--muted); font-size: 10px; }
+.map-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.map-legend i { width: 13px; height: 13px; border: 1px solid rgba(18,54,101,.16); border-radius: 3px; }
+.map-legend__ready { background: #c7d6e5; }
+.map-legend__empty { background: #d8dcd6; }
+.map-legend small { margin-left: auto; color: #858d98; font-size: 9px; }
 
 .region-list-panel { display: flex; min-height: 0; flex-direction: column; padding: 24px; }
 .region-list-heading { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
@@ -322,6 +321,8 @@ input:focus-visible {
   cursor: pointer;
 }
 .region-grid button:hover { color: var(--navy); background: #f8f5ed; }
+.region-grid button:disabled { color: #8d95a1; cursor: not-allowed; opacity: .56; }
+.region-grid button:disabled:hover { background: transparent; }
 .region-grid button span { font-size: 14px; font-weight: 700; }
 .region-grid button small { color: var(--muted); font-size: 10px; }
 .region-grid button svg { width: 15px; }
@@ -411,10 +412,13 @@ input:focus-visible {
 .facility-row { border-bottom: 1px solid var(--line); }
 .facility-row > button {
   position: relative;
-  display: block;
+  display: grid;
+  grid-template-columns: 124px minmax(0, 1fr) 32px;
+  align-items: center;
+  gap: 20px;
   width: 100%;
-  min-height: 148px;
-  padding: 23px 64px 23px 4px;
+  min-height: 164px;
+  padding: 18px 8px 18px 4px;
   border: 0;
   background: transparent;
   text-align: left;
@@ -422,9 +426,14 @@ input:focus-visible {
   transition: padding-left 180ms ease, background 180ms ease;
 }
 .facility-row > button:hover { padding-left: 15px; background: rgba(255,255,255,.45); }
-.facility-row > button > svg { position: absolute; right: 17px; top: 50%; width: 22px; transform: translateY(-50%); color: var(--navy); }
+.facility-row > button > svg { width: 22px; color: var(--navy); }
+.facility-row__visual { display: grid; width: 124px; height: 112px; place-items: center; overflow: hidden; border-radius: 12px 12px 4px 12px; background: var(--navy-soft); color: var(--navy); }
+.facility-row__visual > svg { width: 38px; height: 38px; stroke-width: 1.5; }
+.facility-row__visual img { width: 100%; height: 100%; object-fit: cover; transition: transform 280ms cubic-bezier(.16,1,.3,1); }
+.facility-row > button:hover .facility-row__visual img { transform: scale(1.045); }
+.facility-row__body { min-width: 0; }
 .facility-row__meta { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
-.benefit-badge, .province-badge, .record-badge, .location-ready {
+.benefit-badge, .province-badge, .record-badge, .location-ready, .photo-ready {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -438,7 +447,8 @@ input:focus-visible {
 .province-badge { background: var(--gold-soft); color: #6d5014; }
 .record-badge { border: 1px solid var(--line); background: white; color: var(--muted); }
 .location-ready { padding-left: 2px; color: var(--muted); font-weight: 500; }
-.location-ready svg { width: 12px; }
+.location-ready svg, .photo-ready svg { width: 12px; }
+.photo-ready { padding-left: 2px; color: #805d17; font-weight: 500; }
 .facility-row strong { display: block; color: var(--navy-deep); font-size: 21px; letter-spacing: -.035em; }
 .facility-row p { max-width: 790px; margin: 10px 0 0; color: #4e5b6d; font-size: 14px; line-height: 1.7; }
 
@@ -468,6 +478,22 @@ input:focus-visible {
   color: white;
   box-shadow: 12px 12px 0 var(--gold-soft);
 }
+.detail-photo {
+  position: sticky;
+  top: 110px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(18,54,101,.12);
+  border-radius: 18px 18px 5px 18px;
+  background: var(--paper);
+  box-shadow: 12px 12px 0 var(--gold-soft);
+}
+.detail-photo > img { display: block; width: 100%; height: 410px; object-fit: cover; background: var(--navy-soft); }
+.detail-photo figcaption { display: flex; min-height: 60px; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; color: var(--muted); font-size: 9px; line-height: 1.5; }
+.detail-photo figcaption > span:last-child { display: inline-flex; align-items: center; gap: 5px; flex-wrap: wrap; justify-content: flex-end; }
+.detail-photo figcaption a { color: var(--navy); font-weight: 700; text-decoration: none; }
+.detail-photo figcaption a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.detail-photo figcaption i { font-style: normal; color: #a0a6af; }
 .detail-visual::after { content: ''; position: absolute; width: 260px; height: 260px; border: 1px solid rgba(255,255,255,.13); border-radius: 50%; }
 .detail-visual > svg { position: relative; z-index: 1; width: 74px; height: 74px; stroke-width: 1.4; }
 .detail-visual > span:not(.detail-visual__index) { position: relative; z-index: 1; margin-top: 20px; font-size: 26px; font-weight: 700; }
@@ -543,7 +569,8 @@ input:focus-visible {
   .region-selector[data-view='list'] .map-panel { display: none; }
   .map-panel { padding: 16px; }
   .gyeonggi-map { height: 510px; }
-  .map-marker span { font-size: 8px; }
+  .map-region text { font-size: 14px; stroke-width: 5px; }
+  .map-legend small { width: 100%; margin-left: 0; }
   .region-list-panel { max-height: none; padding: 18px; }
   .region-grid { grid-template-columns: 1fr; overflow: visible; }
   .coming-soon { grid-template-columns: auto 1fr; padding: 18px; }
@@ -554,11 +581,15 @@ input:focus-visible {
   .screen-heading--compact h1 { font-size: 32px; }
   .search-bar { min-height: 54px; }
   .result-summary { align-items: flex-start; flex-direction: column; gap: 4px; }
-  .facility-row > button { min-height: 154px; padding-right: 42px; }
+  .facility-row > button { grid-template-columns: 94px minmax(0, 1fr) 22px; gap: 13px; min-height: 154px; padding-right: 2px; }
+  .facility-row__visual { width: 94px; height: 104px; }
+  .facility-row__visual > svg { width: 32px; height: 32px; }
   .facility-row strong { font-size: 18px; }
   .facility-row p { display: -webkit-box; overflow: hidden; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
   .detail-layout { grid-template-columns: 1fr; }
-  .detail-visual { position: relative; top: auto; min-height: 250px; }
+  .detail-visual, .detail-photo { position: relative; top: auto; }
+  .detail-visual { min-height: 250px; }
+  .detail-photo > img { height: min(64vw, 340px); }
   .detail-visual::after { width: 180px; height: 180px; }
   .detail-visual > svg { width: 56px; height: 56px; }
   .detail-title-wrap { padding-top: 12px; }
@@ -570,8 +601,12 @@ input:focus-visible {
 @media (max-width: 420px) {
   .hero-copy h1 { font-size: 36px; }
   .map-caption small { max-width: 245px; }
+  .map-caption > a { display: none; }
   .gyeonggi-map { height: 470px; }
-  .map-marker span { padding-inline: 2px; font-size: 7px; }
+  .map-region text { font-size: 16px; stroke-width: 6px; }
+  .facility-row > button { grid-template-columns: 76px minmax(0, 1fr) 18px; gap: 10px; }
+  .facility-row__visual { width: 76px; height: 94px; }
+  .location-ready, .photo-ready { display: none; }
   .category-card__copy small { max-width: 170px; }
 }
 

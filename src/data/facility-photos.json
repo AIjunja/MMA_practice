@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gwangmyeong-cave",
+    "facilityNames": ["광명동굴"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/20220805_%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4_%EC%A7%80%ED%95%98_%EB%82%B4%EB%A0%A4%EA%B0%80%EB%8A%94%EA%B8%B8.jpg/1280px-20220805_%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4_%EC%A7%80%ED%95%98_%EB%82%B4%EB%A0%A4%EA%B0%80%EB%8A%94%EA%B8%B8.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20220805_%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4_%EC%A7%80%ED%95%98_%EB%82%B4%EB%A0%A4%EA%B0%80%EB%8A%94%EA%B8%B8.jpg",
+    "author": "Striker9498",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "광명동굴 내부로 내려가는 통로",
+    "objectPosition": "center 55%"
+  },
+  {
+    "id": "aegibong",
+    "facilityNames": ["애기봉평화생태공원"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/20240927_%EC%95%A0%EA%B8%B0%EB%B4%89_%ED%8F%AC%ED%86%A0%EC%9B%8C%ED%81%AC_Real_rism_03.jpg/1280px-20240927_%EC%95%A0%EA%B8%B0%EB%B4%89_%ED%8F%AC%ED%86%A0%EC%9B%8C%ED%81%AC_Real_rism_03.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240927_%EC%95%A0%EA%B8%B0%EB%B4%89_%ED%8F%AC%ED%86%A0%EC%9B%8C%ED%81%AC_Real_rism_03.jpg",
+    "author": "Real rism",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "애기봉평화생태공원 전망 공간",
+    "objectPosition": "center 48%"
+  },
+  {
+    "id": "seongnam-arts-center",
+    "facilityNames": ["성남아트센터"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Seongnam_Arts_Center.jpg/1280px-Seongnam_Arts_Center.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seongnam_Arts_Center.jpg",
+    "author": "Snart",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "성남아트센터 건물 전경",
+    "objectPosition": "center"
+  },
+  {
+    "id": "uiwang-railbike",
+    "facilityNames": ["의왕레일바이크"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/230814_%EC%9D%98%EC%99%95%EB%A0%88%EC%9D%BC%EB%B0%94%EC%9D%B4%ED%81%AC_%EC%A0%84%EA%B2%BD.jpg/1280px-230814_%EC%9D%98%EC%99%95%EB%A0%88%EC%9D%BC%EB%B0%94%EC%9D%B4%ED%81%AC_%EC%A0%84%EA%B2%BD.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:230814_%EC%9D%98%EC%99%95%EB%A0%88%EC%9D%BC%EB%B0%94%EC%9D%B4%ED%81%AC_%EC%A0%84%EA%B2%BD.jpg",
+    "author": "Aspere",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "의왕레일바이크 선로와 탑승 시설 전경",
+    "objectPosition": "center 58%"
+  },
+  {
+    "id": "suwon-hwaseong",
+    "facilityNames": ["수원시 화성주차장 주차료", "수원시 화성관람료", "수원시 화성열차", "수원화성", "수원화성어차"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1_%EC%B0%BD%EB%A3%A1%EB%AC%B8_%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88.jpg/1280px-%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1_%EC%B0%BD%EB%A3%A1%EB%AC%B8_%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1_%EC%B0%BD%EB%A3%A1%EB%AC%B8_%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88.jpg",
+    "author": "Kimnamhyun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "수원화성 창룡문과 성곽 파노라마",
+    "objectPosition": "center"
+  },
+  {
+    "id": "namhansanseong-haenggung",
+    "facilityNames": ["남한산성 행궁"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Korea_Namhansanseong_Fortress_03_%2814143317345%29.jpg/1280px-Korea_Namhansanseong_Fortress_03_%2814143317345%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korea_Namhansanseong_Fortress_03_(14143317345).jpg",
+    "author": "Korea.net · 전한",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "남한산성 행궁 건물과 마당",
+    "objectPosition": "center 52%"
+  }
+]

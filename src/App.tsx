@@ -3,6 +3,7 @@ import {
   BedDouble,
   BookOpen,
   Building2,
+  Camera,
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
@@ -26,7 +27,7 @@ import {
 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Button } from './components/Button'
-import { CATEGORIES, countFor, displayRegion, facilitiesFor, regions, searchFacilities } from './lib/data'
+import { CATEGORIES, countFor, displayRegion, facilitiesFor, mapRegions, photoFor, searchFacilities } from './lib/data'
 import type { Category, Facility } from './types'
 
 type Screen = 'region' | 'category' | 'facilities' | 'detail'
@@ -41,15 +42,6 @@ const CATEGORY_META = {
   체육: { icon: Dumbbell, description: '체육관·수영장·운동시설' },
   기타: { icon: Shapes, description: '그 밖의 예우시설과 혜택' },
 } satisfies Record<Category, { icon: typeof BookOpen; description: string }>
-
-const REGION_POSITIONS: Record<string, [number, number]> = {
-  연천: [50, 7], 파주: [25, 14], 포천: [70, 15], 동두천: [56, 18], 가평: [83, 27],
-  양주: [46, 27], 김포: [12, 37], 고양: [27, 34], 의정부: [52, 38], 남양주: [69, 41],
-  구리: [61, 49], 하남: [70, 55], 양평: [85, 61], 광명: [28, 55], 시흥: [22, 65],
-  안양: [38, 61], 과천: [45, 59], 군포: [35, 69], 의왕: [45, 69], 성남: [57, 63],
-  광주: [67, 70], 안산: [21, 75], 수원: [44, 77], 용인: [58, 78], 이천: [74, 85],
-  여주: [86, 82], 화성: [31, 84], 오산: [43, 89], 평택: [37, 96], 안성: [58, 94],
-}
 
 const RECORD_TYPE_COPY: Record<Facility['recordType'], string> = {
   facility: '개별 시설',
@@ -77,6 +69,7 @@ function App() {
     if (!selectedRegion || !selectedCategory) return []
     return searchFacilities(facilitiesFor(selectedRegion, selectedCategory), query)
   }, [selectedRegion, selectedCategory, query])
+  const selectedPhoto = selectedFacility ? photoFor(selectedFacility) : null
 
   const chooseRegion = (region: string) => {
     setSelectedRegion(region)
@@ -161,42 +154,66 @@ function App() {
                 <ToggleGroup.Item value="map" aria-label="지도에서 선택"><Map aria-hidden="true" /> 지도에서 선택</ToggleGroup.Item>
                 <ToggleGroup.Item value="list" aria-label="지역 이름으로 선택"><List aria-hidden="true" /> 지역 이름으로 선택</ToggleGroup.Item>
               </ToggleGroup.Root>
-              <span className="region-count">등록 지역 {regions.length}곳</span>
+              <span className="region-count">자료 등록 {mapRegions.filter((region) => facilitiesFor(region.region).length > 0).length} / {mapRegions.length}개 시군</span>
             </div>
 
             <div className="region-selector" data-view={regionView}>
-              <div className="map-panel" aria-label="경기도 간편 위치도">
-                <div className="map-caption"><MapPinned aria-hidden="true" /><span>경기도 간편 위치도<small>정확한 행정경계가 아닌 선택용 위치도예요.</small></span></div>
+              <div className="map-panel" aria-label="경기도 31개 시군 행정경계 지도">
+                <div className="map-caption">
+                  <MapPinned aria-hidden="true" />
+                  <span>경기도 31개 시군 지도<small>실제 행정경계를 누르면 해당 지역의 혜택을 볼 수 있어요.</small></span>
+                  <a href="https://github.com/statgarten/maps" target="_blank" rel="noreferrer">경계 출처 <ExternalLink aria-hidden="true" /></a>
+                </div>
                 <div className="gyeonggi-map">
-                  <div className="map-shape" aria-hidden="true" />
-                  {regions.map((region) => {
-                    const [x, y] = REGION_POSITIONS[region] ?? [50, 50]
-                    return (
-                      <button
-                        key={region}
-                        className="map-marker"
-                        style={{ '--x': `${x}%`, '--y': `${y}%` } as CSSProperties}
-                        type="button"
-                        onClick={() => chooseRegion(region)}
-                        aria-label={`${displayRegion(region)} 선택`}
-                      >
-                        <span>{displayRegion(region)}</span>
-                      </button>
-                    )
-                  })}
+                  <svg viewBox="-10 -10 820 964" role="img" aria-labelledby="gyeonggi-map-title gyeonggi-map-desc">
+                    <title id="gyeonggi-map-title">경기도 시군 선택 지도</title>
+                    <desc id="gyeonggi-map-desc">통계청 SGIS 행정경계를 바탕으로 만든 경기도 31개 시군 지도입니다. 색이 진한 지역은 혜택 자료가 등록되어 있습니다.</desc>
+                    {mapRegions.map((shape) => {
+                      const count = facilitiesFor(shape.region).length
+                      const hasData = count > 0
+                      return (
+                        <g
+                          key={shape.region}
+                          className={`map-region ${hasData ? 'map-region--ready' : 'map-region--empty'}`}
+                          role={hasData ? 'button' : 'img'}
+                          tabIndex={hasData ? 0 : -1}
+                          aria-label={hasData ? `${shape.displayName}, 등록 시설 ${count}곳 선택` : `${shape.displayName}, 등록 자료 없음`}
+                          onClick={() => hasData && chooseRegion(shape.region)}
+                          onKeyDown={(event) => {
+                            if (hasData && (event.key === 'Enter' || event.key === ' ')) {
+                              event.preventDefault()
+                              chooseRegion(shape.region)
+                            }
+                          }}
+                        >
+                          <title>{shape.displayName} · {hasData ? `${count}곳` : '자료 없음'}</title>
+                          {shape.paths.map((path, index) => <path d={path} key={`${shape.region}-${index}`} />)}
+                          <text x={shape.label[0]} y={shape.label[1]}>{shape.region}</text>
+                        </g>
+                      )
+                    })}
+                  </svg>
+                </div>
+                <div className="map-legend" aria-label="지도 범례">
+                  <span><i className="map-legend__ready" />혜택 자료 있음</span>
+                  <span><i className="map-legend__empty" />자료 없음</span>
+                  <small>행정경계 기준 2020 · 혜택 데이터 기준 2026.04.30</small>
                 </div>
               </div>
 
               <div className="region-list-panel">
                 <div className="region-list-heading"><strong>지역 이름으로 찾기</strong><span>가나다순</span></div>
                 <div className="region-grid">
-                  {regions.map((region) => (
-                    <button key={region} type="button" onClick={() => chooseRegion(region)}>
+                  {mapRegions.map(({ region }) => {
+                    const count = facilitiesFor(region).length
+                    return (
+                    <button key={region} type="button" onClick={() => chooseRegion(region)} disabled={count === 0}>
                       <span>{displayRegion(region)}</span>
-                      <small>{facilitiesFor(region).length}곳</small>
+                      <small>{count > 0 ? `${count}곳` : '자료 없음'}</small>
                       <ChevronRight aria-hidden="true" />
                     </button>
-                  ))}
+                    )
+                  })}
                 </div>
               </div>
             </div>
@@ -276,22 +293,34 @@ function App() {
 
             {facilityResults.length > 0 ? (
               <div className="facility-list">
-                {facilityResults.map((facility) => (
-                  <article className="facility-row" key={facility.id}>
-                    <button type="button" onClick={() => openFacility(facility)} aria-label={`${facility.name} 상세정보 보기`}>
-                      <span className="facility-row__meta">
-                        <span className={`benefit-badge benefit-badge--${facility.benefitType}`}>
-                          {facility.benefitType === 'exemption' ? '면제' : '할인'}
+                {facilityResults.map((facility) => {
+                  const photo = photoFor(facility)
+                  const FacilityIcon = CATEGORY_META[facility.category].icon
+                  return (
+                    <article className="facility-row" key={facility.id}>
+                      <button type="button" onClick={() => openFacility(facility)} aria-label={`${facility.name} 상세정보 보기`}>
+                        <span className={`facility-row__visual ${photo ? 'facility-row__visual--photo' : ''}`}>
+                          {photo
+                            ? <img src={photo.imageUrl} alt="" loading="lazy" decoding="async" style={{ objectPosition: photo.objectPosition }} />
+                            : <FacilityIcon aria-hidden="true" />}
                         </span>
-                        {facility.provinceManaged && <span className="province-badge">경기도 운영</span>}
-                        {facility.address && <span className="location-ready"><MapPin aria-hidden="true" /> 위치 정보 있음</span>}
-                      </span>
-                      <strong>{facility.name}</strong>
-                      <p>{facility.benefit ?? '감면 내용 확인이 필요해요.'}</p>
-                      <ChevronRight aria-hidden="true" />
-                    </button>
-                  </article>
-                ))}
+                        <span className="facility-row__body">
+                          <span className="facility-row__meta">
+                            <span className={`benefit-badge benefit-badge--${facility.benefitType}`}>
+                              {facility.benefitType === 'exemption' ? '면제' : '할인'}
+                            </span>
+                            {facility.provinceManaged && <span className="province-badge">경기도 운영</span>}
+                            {facility.address && <span className="location-ready"><MapPin aria-hidden="true" /> 위치 정보 있음</span>}
+                            {photo && <span className="photo-ready"><Camera aria-hidden="true" /> 시설 사진</span>}
+                          </span>
+                          <strong>{facility.name}</strong>
+                          <p>{facility.benefit ?? '감면 내용 확인이 필요해요.'}</p>
+                        </span>
+                        <ChevronRight aria-hidden="true" />
+                      </button>
+                    </article>
+                  )
+                })}
               </div>
             ) : (
               <div className="empty-state">
@@ -315,12 +344,22 @@ function App() {
             </nav>
 
             <div className="detail-layout">
-              <div className="detail-visual">
-                <span className="detail-visual__index">{String(CATEGORIES.indexOf(selectedFacility.category) + 1).padStart(2, '0')}</span>
-                {(() => { const Icon = CATEGORY_META[selectedFacility.category].icon; return <Icon aria-hidden="true" /> })()}
-                <span>{selectedFacility.category}</span>
-                <small>{selectedFacility.locationRegionDisplay}</small>
-              </div>
+              {selectedPhoto ? (
+                <figure className="detail-photo">
+                  <img src={selectedPhoto.imageUrl} alt={selectedPhoto.alt} style={{ objectPosition: selectedPhoto.objectPosition }} />
+                  <figcaption>
+                    <span>사진 {selectedPhoto.author}</span>
+                    <span><a href={selectedPhoto.sourceUrl} target="_blank" rel="noreferrer">원본 보기</a><i>·</i><a href={selectedPhoto.licenseUrl} target="_blank" rel="noreferrer">{selectedPhoto.license}</a></span>
+                  </figcaption>
+                </figure>
+              ) : (
+                <div className="detail-visual">
+                  <span className="detail-visual__index">{String(CATEGORIES.indexOf(selectedFacility.category) + 1).padStart(2, '0')}</span>
+                  {(() => { const Icon = CATEGORY_META[selectedFacility.category].icon; return <Icon aria-hidden="true" /> })()}
+                  <span>{selectedFacility.category}</span>
+                  <small>{selectedFacility.locationRegionDisplay}</small>
+                </div>
+              )}
 
               <div className="detail-content">
                 <div className="detail-title-wrap">

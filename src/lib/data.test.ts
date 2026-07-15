@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { CATEGORIES, facilities, facilitiesFor, regions, searchFacilities } from './data'
+import { CATEGORIES, facilities, facilitiesFor, mapRegions, photoFor, regions, searchFacilities } from './data'
 
 describe('facility data', () => {
   it('loads all source records', () => {
@@ -34,5 +34,19 @@ describe('facility data', () => {
     expect(missingAddress?.address).toBeNull()
     expect(missingAddress?.homepageUrl).toBeNull()
     expect(missingAddress?.phoneTel).toBeNull()
+  })
+
+  it('renders all 31 Gyeonggi municipalities from real boundary paths', () => {
+    expect(mapRegions).toHaveLength(31)
+    expect(mapRegions.every((region) => region.paths.length > 0)).toBe(true)
+    expect(mapRegions.find((region) => region.region === '부천')).toBeDefined()
+  })
+
+  it('maps licensed photos only to matching facility names', () => {
+    const hwaseong = facilities.find((facility) => facility.name === '수원화성')
+    const unrelated = facilities.find((facility) => facility.name === '에이치엠에스 피트니스')
+
+    expect(hwaseong && photoFor(hwaseong)?.license).toBe('CC BY-SA 4.0')
+    expect(unrelated && photoFor(unrelated)).toBeNull()
   })
 })

@@ -1,0 +1,272 @@
+{
+  "dataDate": "2026-04-30",
+  "sourceFile": "facilities-2026-04-30.xlsx",
+  "generatedAt": "2026-07-15T07:55:12.999Z",
+  "total": 441,
+  "categories": {
+    "교육": 25,
+    "기타": 56,
+    "문화": 42,
+    "숙박&관광": 16,
+    "의료": 95,
+    "주차": 57,
+    "체육": 150
+  },
+  "regions": [
+    "가평",
+    "고양",
+    "과천",
+    "광명",
+    "광주",
+    "구리",
+    "군포",
+    "김포",
+    "남양주",
+    "동두천",
+    "성남",
+    "수원",
+    "시흥",
+    "안산",
+    "안성",
+    "안양",
+    "양주",
+    "양평",
+    "여주",
+    "연천",
+    "오산",
+    "용인",
+    "의왕",
+    "의정부",
+    "이천",
+    "파주",
+    "평택",
+    "포천",
+    "하남",
+    "화성"
+  ],
+  "missingAddress": 183,
+  "missingPhone": 355,
+  "missingHomepage": 356,
+  "missingBenefit": 2,
+  "categoryReview": 15,
+  "regionMismatch": 1,
+  "recordTypes": {
+    "facility": 258,
+    "facility_group": 59,
+    "benefit_policy": 15,
+    "facility_unlocated": 109
+  },
+  "reviewRows": [
+    {
+      "sourceRow": 4,
+      "name": "과천시 공영주차장",
+      "jurisdictionRaw": "과천",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 5,
+      "name": "과천시청 부설주차장",
+      "jurisdictionRaw": "과천",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "category_review"
+      ]
+    },
+    {
+      "sourceRow": 29,
+      "name": "의왕시 공영주차장",
+      "jurisdictionRaw": "의왕",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 40,
+      "name": "평택시청과 그 소속기관의 부설주차장",
+      "jurisdictionRaw": "평택",
+      "categoryRaw": "주차",
+      "qualityFlags": [
+        "missing_benefit",
+        "missing_address",
+        "missing_phone",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 42,
+      "name": "평택시 시립예술단 공연",
+      "jurisdictionRaw": "평택",
+      "categoryRaw": "문화",
+      "qualityFlags": [
+        "missing_benefit",
+        "missing_address",
+        "missing_phone",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 80,
+      "name": "수원시 화성주차장 주차료",
+      "jurisdictionRaw": "수원",
+      "categoryRaw": "숙박·관광",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 168,
+      "name": "화성시 관광지 부설주차장",
+      "jurisdictionRaw": "화성",
+      "categoryRaw": "숙박·관광",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "missing_homepage",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 204,
+      "name": "의정부종합운동장 부설주차장",
+      "jurisdictionRaw": "의정부",
+      "categoryRaw": "체육",
+      "qualityFlags": [
+        "missing_phone",
+        "missing_homepage",
+        "category_review"
+      ]
+    },
+    {
+      "sourceRow": 228,
+      "name": "회암사지박물관 및 양주시립미술관",
+      "jurisdictionRaw": "양주",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "missing_homepage",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 229,
+      "name": "공공체육시설",
+      "jurisdictionRaw": "양주",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "missing_homepage",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 230,
+      "name": "보건소 및 보건지소, 보건진료소",
+      "jurisdictionRaw": "양주",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "missing_homepage",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 233,
+      "name": "오산시 공공청사 및 공공시설 부설주차장",
+      "jurisdictionRaw": "오산",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "missing_homepage",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 234,
+      "name": "오산시 공영주차장",
+      "jurisdictionRaw": "오산",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 235,
+      "name": "오산시 체육시설",
+      "jurisdictionRaw": "오산",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_address",
+        "missing_phone",
+        "category_review",
+        "aggregate_or_unlocated_record"
+      ]
+    },
+    {
+      "sourceRow": 237,
+      "name": "오산시 문화예술회관",
+      "jurisdictionRaw": "오산",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_phone",
+        "missing_homepage",
+        "category_review"
+      ]
+    },
+    {
+      "sourceRow": 238,
+      "name": "오산시 보건소",
+      "jurisdictionRaw": "오산",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_phone",
+        "missing_homepage",
+        "category_review"
+      ]
+    },
+    {
+      "sourceRow": 393,
+      "name": "구리시 보건소",
+      "jurisdictionRaw": "구리",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_phone",
+        "missing_homepage",
+        "category_review"
+      ]
+    },
+    {
+      "sourceRow": 406,
+      "name": "장애인커뮤니티센터",
+      "jurisdictionRaw": "의왕",
+      "categoryRaw": "기타",
+      "qualityFlags": [
+        "missing_phone",
+        "missing_homepage",
+        "region_address_mismatch"
+      ]
+    }
+  ]
+}

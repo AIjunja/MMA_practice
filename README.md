@@ -46,7 +46,11 @@ npm run build
 
 ## 배포
 
-`main` 브랜치에 푸시하면 GitHub Actions가 테스트와 빌드를 실행한 뒤 GitHub Pages에 배포합니다.
+테스트와 빌드를 통과한 결과물을 `gh-pages` 브랜치에 배포합니다.
+
+```bash
+npm run deploy
+```
 
 예상 주소: `https://aijunja.github.io/MMA_practice/`
 

@@ -25,12 +25,13 @@ import {
   Stethoscope,
   X,
 } from 'lucide-react'
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Button } from './components/Button'
+import type { PxStore } from './features/px/types'
 import { CATEGORIES, countFor, displayRegion, facilitiesFor, mapRegions, photoFor, searchFacilities } from './lib/data'
 import type { Category, Facility } from './types'
 
-type Screen = 'region' | 'category' | 'facilities' | 'detail'
+type Screen = 'region' | 'category' | 'facilities' | 'detail' | 'px' | 'px-detail'
 type RegionView = 'map' | 'list'
 
 const CATEGORY_META = {
@@ -50,12 +51,16 @@ const RECORD_TYPE_COPY: Record<Facility['recordType'], string> = {
   facility_unlocated: '주소 확인이 필요한 시설',
 }
 
+const PxFinder = lazy(() => import('./features/px/PxFeature').then((module) => ({ default: module.PxFinder })))
+const PxDetail = lazy(() => import('./features/px/PxFeature').then((module) => ({ default: module.PxDetail })))
+
 function App() {
   const [screen, setScreen] = useState<Screen>('region')
   const [regionView, setRegionView] = useState<RegionView>('map')
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null)
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null)
   const [selectedFacility, setSelectedFacility] = useState<Facility | null>(null)
+  const [selectedPxStore, setSelectedPxStore] = useState<PxStore | null>(null)
   const [query, setQuery] = useState('')
   const headingRef = useRef<HTMLHeadingElement>(null)
 
@@ -91,12 +96,23 @@ function App() {
     setScreen('detail')
   }
 
+  const openPx = () => {
+    setSelectedPxStore(null)
+    setScreen('px')
+  }
+
+  const openPxStore = (store: PxStore) => {
+    setSelectedPxStore(store)
+    setScreen('px-detail')
+  }
+
   const goHome = () => {
     setScreen('region')
     setRegionView('map')
     setSelectedRegion(null)
     setSelectedCategory(null)
     setSelectedFacility(null)
+    setSelectedPxStore(null)
     setQuery('')
   }
 
@@ -104,9 +120,12 @@ function App() {
     if (screen === 'detail') setScreen('facilities')
     if (screen === 'facilities') setScreen('category')
     if (screen === 'category') setScreen('region')
+    if (screen === 'px-detail') setScreen('px')
+    if (screen === 'px') setScreen('region')
   }
 
   const step = screen === 'region' ? 1 : screen === 'category' ? 2 : 3
+  const isPxScreen = screen === 'px' || screen === 'px-detail'
 
   return (
     <div className="app-shell">
@@ -120,14 +139,16 @@ function App() {
             <small>경기도 예우시설 안내</small>
           </span>
         </button>
-        <span className="data-date"><Database aria-hidden="true" /> 2026.04.30 기준</span>
+        <span className="data-date"><Database aria-hidden="true" /> {isPxScreen ? 'PX 2026.04.28 기준' : '2026.04.30 기준'}</span>
       </header>
 
       <main id="main-content" className="main-content">
-        <div className="progress-wrap" aria-label={`3단계 중 ${step}단계`}>
-          <div className="progress-label"><span>혜택 찾기</span><strong>{step} / 3</strong></div>
-          <div className="progress-track"><span style={{ width: `${(step / 3) * 100}%` }} /></div>
-        </div>
+        {!isPxScreen && (
+          <div className="progress-wrap" aria-label={`3단계 중 ${step}단계`}>
+            <div className="progress-label"><span>혜택 찾기</span><strong>{step} / 3</strong></div>
+            <div className="progress-track"><span style={{ width: `${(step / 3) * 100}%` }} /></div>
+          </div>
+        )}
 
         {screen !== 'region' && (
           <button className="back-button" type="button" onClick={goBack}>
@@ -218,12 +239,24 @@ function App() {
               </div>
             </div>
 
-            <aside className="coming-soon" aria-label="준비 중인 기능">
-              <span className="coming-soon__icon"><MapPin aria-hidden="true" /></span>
-              <div><strong>가까운 군마트도 찾을 수 있게 준비하고 있어요</strong><p>현재 위치를 기준으로 PX와 군마트를 안내하는 기능은 다음 단계에서 제공할 예정입니다.</p></div>
-              <span className="status-chip">준비 중</span>
-            </aside>
+            <button className="px-entry" type="button" onClick={openPx}>
+              <span className="px-entry__icon"><MapPin aria-hidden="true" /></span>
+              <span className="px-entry__copy"><strong>경기도 군마트 찾기</strong><span>가까운 영외마트의 위치와 운영시간을 확인해 보세요.</span></span>
+              <span className="px-entry__action">지금 찾기 <ChevronRight aria-hidden="true" /></span>
+            </button>
           </section>
+        )}
+
+        {screen === 'px' && (
+          <Suspense fallback={<div className="feature-loading" role="status">PX 정보를 불러오고 있어요.</div>}>
+            <PxFinder headingRef={headingRef} onOpenStore={openPxStore} />
+          </Suspense>
+        )}
+
+        {screen === 'px-detail' && selectedPxStore && (
+          <Suspense fallback={<div className="feature-loading" role="status">PX 정보를 불러오고 있어요.</div>}>
+            <PxDetail headingRef={headingRef} store={selectedPxStore} />
+          </Suspense>
         )}
 
         {screen === 'category' && selectedRegion && (

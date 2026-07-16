@@ -7,6 +7,7 @@ const ROOT = process.cwd()
 const INPUT = path.join(ROOT, 'data/source/facilities-2026-04-30.xlsx')
 const OUTPUT = path.join(ROOT, 'src/data/facilities.json')
 const QUALITY_OUTPUT = path.join(ROOT, 'data/quality-report.json')
+const NAVER_MAPPING = path.join(ROOT, 'data/naver-map/facility-link-verification.json')
 const DATA_DATE = '2026-04-30'
 
 const REGION_NAMES = [
@@ -104,7 +105,12 @@ function stableId(parts) {
 }
 
 const workbook = new ExcelJS.Workbook()
-await workbook.xlsx.readFile(INPUT)
+const [naverMappingRaw] = await Promise.all([
+  fs.readFile(NAVER_MAPPING, 'utf8'),
+  workbook.xlsx.readFile(INPUT),
+])
+const naverMapping = JSON.parse(naverMappingRaw)
+const naverBySourceRow = new Map(naverMapping.rows.map((row) => [row.sourceRow, row]))
 const worksheet = workbook.getWorksheet('경기도 관내 전체')
 if (!worksheet) throw new Error('경기도 관내 전체 시트를 찾지 못했습니다.')
 
@@ -135,6 +141,12 @@ for (let rowNumber = 2; rowNumber <= worksheet.rowCount; rowNumber += 1) {
     jurisdictionRaw !== '경기도' && physicalRegion && physicalRegion !== jurisdictionRaw,
   )
   const recordType = classifyRecord(name, address)
+  const naverMatch = naverBySourceRow.get(rowNumber)
+  const fallbackNaverQuery = address ? `${name} ${physicalRegion ?? jurisdictionRaw}`.replace(/\s+/g, ' ').trim() : null
+  const naverMapQuery = naverMatch?.query ?? fallbackNaverQuery
+  const naverMapUrl = address
+    ? naverMatch?.naverMapUrl ?? `https://map.naver.com/p/search/${encodeURIComponent(naverMapQuery)}`
+    : null
 
   const qualityFlags = []
   if (!benefit) qualityFlags.push('missing_benefit')
@@ -167,6 +179,11 @@ for (let rowNumber = 2; rowNumber <= worksheet.rowCount; rowNumber += 1) {
     address,
     phoneDisplay: phone.display,
     phoneTel: phone.tel,
+    naverMapQuery,
+    naverMapUrl,
+    naverPlaceId: naverMatch?.naverPlaceId ?? null,
+    naverMapVerified: naverMatch?.verified ?? false,
+    naverMapVerificationStatus: naverMatch?.verificationStatus ?? (address ? 'not_browser_verified' : 'not_applicable_no_address'),
     recordType,
     geocodeStatus: address ? 'ready_for_geocoding' : 'missing_address',
     latitude: null,
@@ -199,6 +216,12 @@ const qualityReport = {
     ['facility', 'facility_group', 'benefit_policy', 'facility_unlocated']
       .map((type) => [type, count((item) => item.recordType === type)]),
   ),
+  naverMap: {
+    locatable: count((item) => Boolean(item.address)),
+    verified: count((item) => item.naverMapVerified),
+    exactPlaceLinks: count((item) => Boolean(item.naverPlaceId)),
+    missingLinks: count((item) => Boolean(item.address) && !item.naverMapUrl),
+  },
   reviewRows: facilities
     .filter((item) => item.categoryReview || item.regionMismatch || !item.benefit)
     .map(({ sourceRow, name, jurisdictionRaw, categoryRaw, qualityFlags }) => ({

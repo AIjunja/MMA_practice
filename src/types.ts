@@ -24,6 +24,11 @@ export interface Facility {
   address: string | null
   phoneDisplay: string | null
   phoneTel: string | null
+  naverMapQuery: string | null
+  naverMapUrl: string | null
+  naverPlaceId: string | null
+  naverMapVerified: boolean
+  naverMapVerificationStatus: string
   recordType: RecordType
   geocodeStatus: 'ready_for_geocoding' | 'missing_address'
   latitude: number | null

@@ -425,12 +425,12 @@ function App() {
                   {selectedFacility.homepageUrl && (
                     <a className="action-link" href={selectedFacility.homepageUrl} target="_blank" rel="noreferrer"><ExternalLink aria-hidden="true" /><span>홈페이지 보기</span></a>
                   )}
-                  {selectedFacility.address && (
-                    <a className="action-link" href={`https://map.naver.com/p/search/${encodeURIComponent(selectedFacility.address)}`} target="_blank" rel="noreferrer"><MapPinned aria-hidden="true" /><span>지도에서 위치 보기</span></a>
+                  {selectedFacility.naverMapUrl && (
+                    <a className="action-link" href={selectedFacility.naverMapUrl} target="_blank" rel="noreferrer"><MapPinned aria-hidden="true" /><span>네이버지도에서 보기</span></a>
                   )}
                 </div>
 
-                {!selectedFacility.phoneTel && !selectedFacility.homepageUrl && !selectedFacility.address && (
+                {!selectedFacility.phoneTel && !selectedFacility.homepageUrl && !selectedFacility.naverMapUrl && (
                   <div className="no-actions"><Info aria-hidden="true" /><p>연결 가능한 주소, 연락처와 홈페이지 정보가 아직 없어요.</p></div>
                 )}
 

@@ -3,7 +3,7 @@ import { CATEGORIES, facilities, facilitiesFor, mapRegions, photoFor, regions, s
 
 describe('facility data', () => {
   it('loads all source records', () => {
-    expect(facilities).toHaveLength(441)
+    expect(facilities).toHaveLength(440)
   })
 
   it('uses exactly the seven approved categories', () => {
@@ -18,7 +18,7 @@ describe('facility data', () => {
 
   it('maps province-managed facilities to their physical region', () => {
     const provinceManaged = facilities.filter((item) => item.provinceManaged)
-    expect(provinceManaged).toHaveLength(5)
+    expect(provinceManaged).toHaveLength(4)
     expect(provinceManaged.every((item) => item.locationRegion)).toBe(true)
   })
 
@@ -34,6 +34,19 @@ describe('facility data', () => {
     expect(missingAddress?.address).toBeNull()
     expect(missingAddress?.homepageUrl).toBeNull()
     expect(missingAddress?.phoneTel).toBeNull()
+    expect(missingAddress?.naverMapQuery).toBeNull()
+    expect(missingAddress?.naverMapUrl).toBeNull()
+  })
+
+  it('uses facility-name-first Naver Map links instead of full road-address queries', () => {
+    const locatable = facilities.filter((item) => item.address)
+    expect(locatable.length).toBe(257)
+    expect(locatable.every((item) => item.naverMapQuery && item.naverMapUrl)).toBe(true)
+    expect(locatable.every((item) => !decodeURIComponent(item.naverMapUrl ?? '').includes(item.address ?? ''))).toBe(true)
+
+    const museum = facilities.find((item) => item.name === '과천시 추사박물관')
+    expect(museum?.naverMapQuery).toBe('과천시 추사박물관 과천')
+    expect(museum?.naverMapVerificationStatus).toMatch(/^verified_/)
   })
 
   it('renders all 31 Gyeonggi municipalities from real boundary paths', () => {

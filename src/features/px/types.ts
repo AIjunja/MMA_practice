@@ -23,6 +23,9 @@ export interface PxStore {
   coordinateMatchStatus: string
   coordinateAddressScore: number | null
   naverMapUrl: string
+  naverMapQuery: string
+  naverPlaceId: string
+  naverMapVerified: boolean
   naverMapLinkType: string
   welfarePortalUrl: string
   welfareLinkType: string

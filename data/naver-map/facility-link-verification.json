@@ -1,0 +1,2577 @@
+{
+  "checkedAt": "2026-07-16",
+  "sourceFile": "경인_예우시설_2026_4_30_업데이트_정리.xlsx",
+  "linkPolicy": "시설명과 실제 소재 시군만 사용하며 전체 도로명 주소는 검색어에서 제외",
+  "rows": [
+    {
+      "sourceRow": 2,
+      "query": "과천시 시립예술단체 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%8B%9C%EB%A6%BD%EC%98%88%EC%88%A0%EB%8B%A8%EC%B2%B4%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 3,
+      "query": "과천시 청소년수련관 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "과천시청소년수련관",
+      "naverAddress": "경기 과천시 문원동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 5,
+      "query": "과천시청 부설주차장 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EC%B2%AD%20%EB%B6%80%EC%84%A4%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "과천시청주차장",
+      "naverAddress": "경기 과천시 중앙동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 6,
+      "query": "과천시 추사박물관 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%B6%94%EC%82%AC%EB%B0%95%EB%AC%BC%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "추사박물관",
+      "naverAddress": "경기 과천시 주암동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 7,
+      "query": "과천시 도시공원 및 녹지 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 8,
+      "query": "과천시 시민회관 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%8B%9C%EB%AF%BC%ED%9A%8C%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "과천시민회관",
+      "naverAddress": "경기 과천시 중앙동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 9,
+      "query": "과천시 문화교육센터 중앙동 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%A4%91%EC%95%99%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": "1206323400",
+      "naverName": "과천시시설관리공단 유아체능단",
+      "naverAddress": "경기 과천시 중앙동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 10,
+      "query": "과천시 문화교육센터 갈현동 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EA%B0%88%ED%98%84%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "원문동문화교육센터",
+      "naverAddress": "경기 과천시 갈현동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 11,
+      "query": "과천시 문화교육센터 원문동 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9B%90%EB%AC%B8%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "원문동문화교육센터",
+      "naverAddress": "경기 과천시 갈현동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 12,
+      "query": "과천시 문화교육센터 별양동 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EB%B3%84%EC%96%91%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "별양동문화교육센터",
+      "naverAddress": "경기 과천시 별양동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 13,
+      "query": "과천시 문화교육센터 부림동 과천",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/18445470",
+      "naverPlaceId": "18445470",
+      "naverName": "부림동문화교육센터",
+      "naverAddress": "경기 과천시 부림동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 14,
+      "query": "과천시 문화교육센터 과천동 과천",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36961601",
+      "naverPlaceId": "36961601",
+      "naverName": "과천동문화교육센터",
+      "naverAddress": "경기 과천시 과천동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 15,
+      "query": "경기도체육시설 경기도 유도회관 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%20%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9C%A0%EB%8F%84%ED%9A%8C%EA%B4%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 16,
+      "query": "경기도체육시설 경기도 검도수련원 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%20%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B2%80%EB%8F%84%EC%88%98%EB%A0%A8%EC%9B%90%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 18,
+      "query": "용인자연휴양림 주차장 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9A%A9%EC%9D%B8%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "용인자연휴양림제1주차장",
+      "naverAddress": "경기 용인시 처인구 모현읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 19,
+      "query": "경기도어린이박물관 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "경기도어린이박물관",
+      "naverAddress": "경기 용인시 기흥구 상갈동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 20,
+      "query": "경기도 박물관 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 21,
+      "query": "백남준아트센터 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B0%B1%EB%82%A8%EC%A4%80%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "백남준아트센터",
+      "naverAddress": "경기 용인시 기흥구 상갈동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 22,
+      "query": "강남병원 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B0%95%EB%82%A8%EB%B3%91%EC%9B%90%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "강남병원",
+      "naverAddress": "경기 용인시 기흥구 신갈동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 23,
+      "query": "연세대학교용인세브란스병원 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90%EC%9A%A9%EC%9D%B8%EC%84%B8%EB%B8%8C%EB%9E%80%EC%8A%A4%EB%B3%91%EC%9B%90%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "용인세브란스병원",
+      "naverAddress": "경기 용인시 기흥구 중동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 24,
+      "query": "나도보청기 용인",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1165538059",
+      "naverPlaceId": "1165538059",
+      "naverName": "나도보청기",
+      "naverAddress": "경기 용인시 기흥구 중동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 25,
+      "query": "대한안과의사회 현탑안과 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%ED%98%84%ED%83%91%EC%95%88%EA%B3%BC%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 26,
+      "query": "한국민속촌 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%95%9C%EA%B5%AD%EB%AF%BC%EC%86%8D%EC%B4%8C%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 27,
+      "query": "하늘바다컴퓨터학원 용인",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/38279716",
+      "naverPlaceId": "38279716",
+      "naverName": "하늘바다컴퓨터학원",
+      "naverAddress": "경기 용인시 수지구 풍덕천동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 28,
+      "query": "엠플러스병원 용인",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/12016573",
+      "naverPlaceId": "12016573",
+      "naverName": "엠플러스병원",
+      "naverAddress": "경기 용인시 기흥구 중동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 30,
+      "query": "의왕시 보건소 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕시보건소",
+      "naverAddress": "경기 의왕시 고천동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 32,
+      "query": "의왕시 장사시설 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%9E%A5%EC%82%AC%EC%8B%9C%EC%84%A4%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "시티병원 장례식장",
+      "naverAddress": "경기 의왕시 오전동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 33,
+      "query": "의왕레일바이크 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EB%A0%88%EC%9D%BC%EB%B0%94%EC%9D%B4%ED%81%AC%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕레일파크",
+      "naverAddress": "경기 의왕시 월암동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 34,
+      "query": "이천시 보건소 이천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%B4%EC%B2%9C%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%B4%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "이천시보건소",
+      "naverAddress": "경기 이천시 중리동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 35,
+      "query": "경기도의료원 이천 이천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%9D%B4%EC%B2%9C%20%EC%9D%B4%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "경기도의료원이천병원",
+      "naverAddress": "경기 이천시 관고동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 36,
+      "query": "서울감동치과 장호원점 이천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EA%B0%90%EB%8F%99%EC%B9%98%EA%B3%BC%20%EC%9E%A5%ED%98%B8%EC%9B%90%EC%A0%90%20%EC%9D%B4%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 38,
+      "query": "더플랜컴퓨터학원 이천점 이천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%EC%9D%B4%EC%B2%9C%EC%A0%90%20%EC%9D%B4%EC%B2%9C",
+      "naverPlaceId": "1674721847",
+      "naverName": "더플랜컴퓨터아트회계학원 이천점",
+      "naverAddress": "경기 이천시 관고동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 39,
+      "query": "평택시 보건소 평택",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%ED%8F%89%ED%83%9D",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 43,
+      "query": "대한안과의사회 평택 밝은성모안과 평택",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%ED%8F%89%ED%83%9D%20%EB%B0%9D%EC%9D%80%EC%84%B1%EB%AA%A8%EC%95%88%EA%B3%BC%20%ED%8F%89%ED%83%9D",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 44,
+      "query": "비트컴퓨터학원 평택",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B9%84%ED%8A%B8%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%ED%8F%89%ED%83%9D",
+      "naverPlaceId": null,
+      "naverName": "비트컴퓨터학원",
+      "naverAddress": "경기 평택시 비전동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 45,
+      "query": "더플랜컴퓨터학원 평택점 평택",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%ED%8F%89%ED%83%9D%EC%A0%90%20%ED%8F%89%ED%83%9D",
+      "naverPlaceId": "1377628409",
+      "naverName": "더플랜컴퓨터아트회계학원 평택점",
+      "naverAddress": "경기 평택시 용이동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 49,
+      "query": "다래한방병원 화성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8B%A4%EB%9E%98%ED%95%9C%EB%B0%A9%EB%B3%91%EC%9B%90%20%ED%99%94%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "다래한방병원",
+      "naverAddress": "경기 화성시 만세구 향남읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 52,
+      "query": "남한산성 행궁 광주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1%20%ED%96%89%EA%B6%81%20%EA%B4%91%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "남한산성행궁",
+      "naverAddress": "경기 광주시 남한산성면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 53,
+      "query": "중앙컴퓨터전산회계학원 광주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A4%91%EC%95%99%EC%BB%B4%ED%93%A8%ED%84%B0%EC%A0%84%EC%82%B0%ED%9A%8C%EA%B3%84%ED%95%99%EC%9B%90%20%EA%B4%91%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "중앙컴퓨터전산회계학원",
+      "naverAddress": "경기 광주시 경안동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 54,
+      "query": "광주연세안과 광주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B4%91%EC%A3%BC%EC%97%B0%EC%84%B8%EC%95%88%EA%B3%BC%20%EA%B4%91%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "연세미래의원",
+      "naverAddress": "전남광주 남구 진월동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 55,
+      "query": "군포시 미디어센터 군포",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1426710057",
+      "naverPlaceId": "1426710057",
+      "naverName": "군포시미디어센터",
+      "naverAddress": "경기 군포시 산본동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 56,
+      "query": "군포시 보건소 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "군포시보건소",
+      "naverAddress": "경기 군포시 부곡동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 57,
+      "query": "군포시 노동종합복지관 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%85%B8%EB%8F%99%EC%A2%85%ED%95%A9%EB%B3%B5%EC%A7%80%EA%B4%80%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "군포시노동종합복지관",
+      "naverAddress": "경기 군포시 당동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 58,
+      "query": "군포시청 부설주차장 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%EC%B2%AD%20%EB%B6%80%EC%84%A4%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": "19271940",
+      "naverName": "군포시청주차장",
+      "naverAddress": "경기 군포시 금정동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 59,
+      "query": "군포시 평생학습원 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "군포시평생학습원",
+      "naverAddress": "경기 군포시 당동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 60,
+      "query": "수리산 상상마을 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EB%A6%AC%EC%82%B0%20%EC%83%81%EC%83%81%EB%A7%88%EC%9D%84%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": "32998946",
+      "naverName": "군포문화재단",
+      "naverAddress": "경기 군포시 산본동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 61,
+      "query": "군포시 문화예술회관 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%ED%9A%8C%EA%B4%80%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "군포문화예술회관",
+      "naverAddress": "경기 군포시 산본동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 65,
+      "query": "군포시 초막골생태공원 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EC%B4%88%EB%A7%89%EA%B3%A8%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "초막골생태공원",
+      "naverAddress": "경기 군포시 산본동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 67,
+      "query": "지샘병원 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A7%80%EC%83%98%EB%B3%91%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 68,
+      "query": "원광대학교 의과대학 산본병원 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9B%90%EA%B4%91%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%20%EC%82%B0%EB%B3%B8%EB%B3%91%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "원광대학교 산본병원",
+      "naverAddress": "경기 군포시 산본동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 69,
+      "query": "대한안과의사회 산본삼성안과 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%82%B0%EB%B3%B8%EC%82%BC%EC%84%B1%EC%95%88%EA%B3%BC%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 74,
+      "query": "리지안안과 성남",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/11529736",
+      "naverPlaceId": "11529736",
+      "naverName": "리지안안과의원",
+      "naverAddress": "경기 성남시 분당구 구미동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 75,
+      "query": "대한안과의사회 연세독수리안과 성남",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%97%B0%EC%84%B8%EB%8F%85%EC%88%98%EB%A6%AC%EC%95%88%EA%B3%BC%20%EC%84%B1%EB%82%A8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 76,
+      "query": "미금세브란스치과의원 성남",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1708029328",
+      "naverPlaceId": "1708029328",
+      "naverName": "미금세브란스치과의원",
+      "naverAddress": "경기 성남시 분당구 구미동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 77,
+      "query": "성남아트센터 성남",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%82%A8%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%84%B1%EB%82%A8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 78,
+      "query": "성남중앙병원 성남",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%82%A8%EC%A4%91%EC%95%99%EB%B3%91%EC%9B%90%20%EC%84%B1%EB%82%A8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 79,
+      "query": "대한안과의사회 연세플러스안과 성남",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%97%B0%EC%84%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%95%88%EA%B3%BC%20%EC%84%B1%EB%82%A8",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 84,
+      "query": "수원시립아이파크미술관 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EC%8B%9C%EB%A6%BD%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC%EB%AF%B8%EC%88%A0%EA%B4%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": "36513873",
+      "naverName": "수원시립미술관",
+      "naverAddress": "경기 수원시 팔달구 신풍동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 86,
+      "query": "경기아트센터 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "경기아트센터",
+      "naverAddress": "경기 수원시 팔달구 인계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 87,
+      "query": "경기도의료원 수원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%88%98%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "경기도의료원수원병원",
+      "naverAddress": "경기 수원시 장안구 정자동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 88,
+      "query": "한국건강관리협회경기도지부 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%95%9C%EA%B5%AD%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC%ED%98%91%ED%9A%8C%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%A7%80%EB%B6%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "사단법인 경기도시각장애인연합회",
+      "naverAddress": "경기 수원시 팔달구 우만동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 89,
+      "query": "수원이안과의원 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/11529335",
+      "naverPlaceId": "11529335",
+      "naverName": "수원이안과의원",
+      "naverAddress": "경기 수원시 팔달구 팔달로1가",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 90,
+      "query": "힐정형외과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35756669",
+      "naverPlaceId": "35756669",
+      "naverName": "힐정형외과의원",
+      "naverAddress": "경기 수원시 권선구 권선동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 91,
+      "query": "메트로치과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/11680537",
+      "naverPlaceId": "11680537",
+      "naverName": "메트로치과의원",
+      "naverAddress": "경기 수원시 팔달구 화서동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 92,
+      "query": "사람사랑치과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/11549712",
+      "naverPlaceId": "11549712",
+      "naverName": "사람사랑치과의원 수원점",
+      "naverAddress": "경기 수원시 장안구 조원동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 93,
+      "query": "삼성힐정형외과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/453330937",
+      "naverPlaceId": "453330937",
+      "naverName": "삼성힐정형외과의원",
+      "naverAddress": "경기 수원시 장안구 정자동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 94,
+      "query": "사람과자연협동조합 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1283412938",
+      "naverPlaceId": "1283412938",
+      "naverName": "사람과자연협동조합 드론국가자격증 교육장",
+      "naverAddress": "경기 수원시 장안구 하광교동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 95,
+      "query": "가톨릭대학교 성빈센트병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B0%80%ED%86%A8%EB%A6%AD%EB%8C%80%ED%95%99%EA%B5%90%20%EC%84%B1%EB%B9%88%EC%84%BC%ED%8A%B8%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "가톨릭대학교 성빈센트병원",
+      "naverAddress": "경기 수원시 팔달구 지동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 96,
+      "query": "김기록치과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35593503",
+      "naverPlaceId": "35593503",
+      "naverName": "김기록치과의원",
+      "naverAddress": "경기 수원시 영통구 매탄동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 97,
+      "query": "노블치과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1967765521",
+      "naverPlaceId": "1967765521",
+      "naverName": "노블치과의원 수원",
+      "naverAddress": "경기 수원시 장안구 조원동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 98,
+      "query": "에이치엠에스 피트니스 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%97%90%EC%9D%B4%EC%B9%98%EC%97%A0%EC%97%90%EC%8A%A4%20%ED%94%BC%ED%8A%B8%EB%8B%88%EC%8A%A4%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 99,
+      "query": "수원독일보청기 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EB%8F%85%EC%9D%BC%EB%B3%B4%EC%B2%AD%EA%B8%B0%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "수원독일보청기",
+      "naverAddress": "경기 수원시 장안구 파장동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 100,
+      "query": "윌스기념병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9C%8C%EC%8A%A4%EA%B8%B0%EB%85%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "토마스의료재단 윌스기념병원",
+      "naverAddress": "경기 수원시 팔달구 인계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 101,
+      "query": "진미통닭 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A7%84%EB%AF%B8%ED%86%B5%EB%8B%AD%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "진미통닭",
+      "naverAddress": "경기 수원시 팔달구 남수동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 102,
+      "query": "남문통닭 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%82%A8%EB%AC%B8%ED%86%B5%EB%8B%AD%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "남문통닭 본점",
+      "naverAddress": "경기 수원시 팔달구 팔달로1가",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 103,
+      "query": "대한안과의사회 제일연세안과 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%A0%9C%EC%9D%BC%EC%97%B0%EC%84%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 104,
+      "query": "대한안과의사회 올바른안과 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%98%AC%EB%B0%94%EB%A5%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 105,
+      "query": "수원자생한방병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36476254",
+      "naverPlaceId": "36476254",
+      "naverName": "수원자생한방병원",
+      "naverAddress": "경기 수원시 영통구 영통동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 106,
+      "query": "서울88의원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B888%EC%9D%98%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "서울88의원",
+      "naverAddress": "경기 수원시 팔달구 인계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 107,
+      "query": "아주대학교병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%84%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "아주대학교병원",
+      "naverAddress": "경기 수원시 영통구 원천동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 108,
+      "query": "대원평생교육원 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1408644175",
+      "naverPlaceId": "1408644175",
+      "naverName": "대원평생교육원",
+      "naverAddress": "경기 수원시 권선구 서둔동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 109,
+      "query": "영진아이티학원 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1416595335",
+      "naverPlaceId": "1416595335",
+      "naverName": "영진아이티학원",
+      "naverAddress": "경기 수원시 팔달구 중동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 110,
+      "query": "백성병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B0%B1%EC%84%B1%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "백성병원",
+      "naverAddress": "경기 수원시 팔달구 인계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 111,
+      "query": "대한안과의사회 광교연세안과 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EA%B4%91%EA%B5%90%EC%97%B0%EC%84%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 112,
+      "query": "밝은미소안과 수원",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/11886176",
+      "naverPlaceId": "11886176",
+      "naverName": "밝은미소안과의원",
+      "naverAddress": "경기 수원시 권선구 권선동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 113,
+      "query": "동수원한방병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%99%EC%88%98%EC%9B%90%ED%95%9C%EB%B0%A9%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "동수원한방병원 재활의학과",
+      "naverAddress": "경기 수원시 팔달구 우만동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 114,
+      "query": "수원중앙병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EC%A4%91%EC%95%99%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "수원중앙병원",
+      "naverAddress": "경기 수원시 권선구 권선동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 115,
+      "query": "동수원병원 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%99%EC%88%98%EC%9B%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 116,
+      "query": "대한안과의사회 성모안과 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%84%B1%EB%AA%A8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 117,
+      "query": "안성시 보건소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성시보건소",
+      "naverAddress": "경기 안성시 도기동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 121,
+      "query": "경기도의료원 안성 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%95%88%EC%84%B1%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 122,
+      "query": "더플랜컴퓨터학원 공도점 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%EA%B3%B5%EB%8F%84%EC%A0%90%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 123,
+      "query": "안성성모병원 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%84%B1%EB%AA%A8%EB%B3%91%EC%9B%90%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성성모병원",
+      "naverAddress": "경기 안성시 서인동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 127,
+      "query": "안양샘병원 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%96%91%EC%83%98%EB%B3%91%EC%9B%90%20%EC%95%88%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": "효산의료재단 안양샘병원",
+      "naverAddress": "경기 안양시 만안구 안양동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 128,
+      "query": "대한안과의사회 글로벌안과 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 129,
+      "query": "한림대학교 성심병원 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%95%9C%EB%A6%BC%EB%8C%80%ED%95%99%EA%B5%90%20%EC%84%B1%EC%8B%AC%EB%B3%91%EC%9B%90%20%EC%95%88%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": "한림대학교성심병원",
+      "naverAddress": "경기 안양시 동안구 평촌동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 130,
+      "query": "대한안과의사회 삼성밝은안과 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%82%BC%EC%84%B1%EB%B0%9D%EC%9D%80%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 131,
+      "query": "서울와이즈치과 안양",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1099354889",
+      "naverPlaceId": "1099354889",
+      "naverName": "서울와이즈치과의원",
+      "naverAddress": "경기 안양시 만안구 안양동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 132,
+      "query": "대한안과의사회 안양 서울안과 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%95%88%EC%96%91%20%EC%84%9C%EC%9A%B8%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 133,
+      "query": "여주시 보건소 여주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%97%AC%EC%A3%BC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%97%AC%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "여주시보건소",
+      "naverAddress": "경기 여주시 상동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 135,
+      "query": "대한안과의사회 오산 밝은안과 오산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%98%A4%EC%82%B0%20%EB%B0%9D%EC%9D%80%EC%95%88%EA%B3%BC%20%EC%98%A4%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 136,
+      "query": "독개다리 및 BEAT131 전시관 파주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%85%EA%B0%9C%EB%8B%A4%EB%A6%AC%20%EB%B0%8F%20BEAT131%20%EC%A0%84%EC%8B%9C%EA%B4%80%20%ED%8C%8C%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 137,
+      "query": "경기도의료원 의정부 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%9D%98%EC%A0%95%EB%B6%80%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 138,
+      "query": "경기도의료원 파주 파주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%ED%8C%8C%EC%A3%BC%20%ED%8C%8C%EC%A3%BC",
+      "naverPlaceId": "13412503",
+      "naverName": "문산중앙병원",
+      "naverAddress": "경기 파주시 문산읍",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 139,
+      "query": "경기도의료원 포천 포천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%ED%8F%AC%EC%B2%9C%20%ED%8F%AC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "경기도의료원포천병원",
+      "naverAddress": "경기 포천시 신읍동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 140,
+      "query": "경기도청소년수련원 가평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EC%9B%90%20%EA%B0%80%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": "가평힐링캠프",
+      "naverAddress": "경기 가평군 상면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 141,
+      "query": "축령산 자연휴양림 남양주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%B6%95%EB%A0%B9%EC%82%B0%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EB%82%A8%EC%96%91%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "축령산자연휴양림",
+      "naverAddress": "경기 남양주시 수동면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 142,
+      "query": "강씨봉 자연휴양림 가평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%94%A8%EB%B4%89%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EA%B0%80%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": "강씨봉자연휴양림",
+      "naverAddress": "경기 가평군 북면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 143,
+      "query": "잣향기 푸른숲 가평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9E%A3%ED%96%A5%EA%B8%B0%20%ED%91%B8%EB%A5%B8%EC%88%B2%20%EA%B0%80%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": "경기도잣향기푸른숲",
+      "naverAddress": "경기 가평군 상면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 144,
+      "query": "경기도 검도회관 오산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B2%80%EB%8F%84%ED%9A%8C%EA%B4%80%20%EC%98%A4%EC%82%B0",
+      "naverPlaceId": "1418484002",
+      "naverName": "오산시유도회관",
+      "naverAddress": "경기 오산시 원동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 145,
+      "query": "경기도 사격테마파크 화성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%82%AC%EA%B2%A9%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC%20%ED%99%94%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "경기도사격테마파크",
+      "naverAddress": "경기 화성시 만세구 양감면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 146,
+      "query": "수원화성 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "화성행궁",
+      "naverAddress": "경기 수원시 팔달구 남창동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 147,
+      "query": "수원화성어차 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1%EC%96%B4%EC%B0%A8%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": "1857795256",
+      "naverName": "신흥원",
+      "naverAddress": "경기 수원시 팔달구 남수동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 148,
+      "query": "수원박물관 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "수원박물관",
+      "naverAddress": "경기 수원시 영통구 이의동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 149,
+      "query": "수원화성박물관 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "수원화성박물관",
+      "naverAddress": "경기 수원시 팔달구 매향동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 150,
+      "query": "광교박물관 수원",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B4%91%EA%B5%90%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+      "naverPlaceId": null,
+      "naverName": "수원광교박물관",
+      "naverAddress": "경기 수원시 영통구 이의동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 158,
+      "query": "용인자연휴양림 용인",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9A%A9%EC%9D%B8%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%9A%A9%EC%9D%B8",
+      "naverPlaceId": null,
+      "naverName": "용인자연휴양림",
+      "naverAddress": "경기 용인시 처인구 모현읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 160,
+      "query": "고양시 덕양구 보건소 고양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": "고양시덕양구보건소",
+      "naverAddress": "경기 고양시 덕양구 주교동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 161,
+      "query": "고양시 일산동구 보건소 고양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": "고양시일산동구보건소",
+      "naverAddress": "경기 고양시 일산동구 백석동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 162,
+      "query": "고양시 일산서구 보건소 고양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+      "naverPlaceId": null,
+      "naverName": "고양시일산서구보건소",
+      "naverAddress": "경기 고양시 일산서구 일산동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 170,
+      "query": "상록수보건소 안산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%83%81%EB%A1%9D%EC%88%98%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 171,
+      "query": "단원보건소 안산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8B%A8%EC%9B%90%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 172,
+      "query": "안산문화예술의전당 안산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%82%B0%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9%20%EC%95%88%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": "안산문화예술의전당",
+      "naverAddress": "경기 안산시 단원구 고잔동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 175,
+      "query": "안산어촌민속박물관 안산",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/20027722",
+      "naverPlaceId": "20027722",
+      "naverName": "안산어촌민속박물관",
+      "naverAddress": "경기 안산시 단원구 선감동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 179,
+      "query": "시흥시 목공체험장 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EB%AA%A9%EA%B3%B5%EC%B2%B4%ED%97%98%EC%9E%A5%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 180,
+      "query": "시흥시 해양생태과학관 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%ED%95%B4%EC%96%91%EC%83%9D%ED%83%9C%EA%B3%BC%ED%95%99%EA%B4%80%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": null,
+      "naverName": "해양생태과학관",
+      "naverAddress": "경기 시흥시 거북섬서로",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 181,
+      "query": "시흥에코센터 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%97%90%EC%BD%94%EC%84%BC%ED%84%B0%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": null,
+      "naverName": "시흥에코센터",
+      "naverAddress": "경기 시흥시 정왕동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 182,
+      "query": "시흥오이도박물관 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%98%A4%EC%9D%B4%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": null,
+      "naverName": "시흥오이도박물관",
+      "naverAddress": "경기 시흥시 정왕동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 183,
+      "query": "시흥시 벅스리움 시흥",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EB%B2%85%EC%8A%A4%EB%A6%AC%EC%9B%80%20%EC%8B%9C%ED%9D%A5",
+      "naverPlaceId": "1026815605",
+      "naverName": "시흥시 곤충전시체험관 벅스리움",
+      "naverAddress": "경기 시흥시 정왕동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 190,
+      "query": "김포시 평생학습관 김포",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13285502",
+      "naverPlaceId": "13285502",
+      "naverName": "김포시 평생학습관",
+      "naverAddress": "경기 김포시 운양동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 192,
+      "query": "금빛수로 보트하우스 김포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B8%88%EB%B9%9B%EC%88%98%EB%A1%9C%20%EB%B3%B4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4%20%EA%B9%80%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "금빛수로 보트하우스",
+      "naverAddress": "경기 김포시 장기동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 193,
+      "query": "애기봉평화생태공원 김포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%A0%EA%B8%B0%EB%B4%89%ED%8F%89%ED%99%94%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%20%EA%B9%80%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "애기봉평화생태공원",
+      "naverAddress": "경기 김포시 월곶면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 194,
+      "query": "김포도시공사 체육 및 문화시설 이용료 김포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%82%AC%20%EC%B2%B4%EC%9C%A1%20%EB%B0%8F%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%20%EC%9D%B4%EC%9A%A9%EB%A3%8C%20%EA%B9%80%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 195,
+      "query": "김포시 공영주차장 주차료 김포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%EC%8B%9C%20%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%A3%BC%EC%B0%A8%EB%A3%8C%20%EA%B9%80%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 197,
+      "query": "의정부시 보건소 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 199,
+      "query": "의정부실내빙상장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%A4%EB%82%B4%EB%B9%99%EC%83%81%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "의정부 실내빙상장",
+      "naverAddress": "경기 의정부시 녹양동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 200,
+      "query": "의정부컬링경기장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%BB%AC%EB%A7%81%EA%B2%BD%EA%B8%B0%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "의정부컬링경기장",
+      "naverAddress": "경기 의정부시 녹양동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 201,
+      "query": "의정부체육관 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 202,
+      "query": "의정부자전거경기장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/20123049",
+      "naverPlaceId": "20123049",
+      "naverName": "의정부자전거경기장",
+      "naverAddress": "경기 의정부시 녹양동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 203,
+      "query": "의정부종합운동장 부설주차장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%A2%85%ED%95%A9%EC%9A%B4%EB%8F%99%EC%9E%A5%20%EB%B6%80%EC%84%A4%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "의정부종합운동장 제1주차장",
+      "naverAddress": "경기 의정부시 녹양동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 204,
+      "query": "신곡실내배드민턴장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1888021480",
+      "naverPlaceId": "1888021480",
+      "naverName": "신곡실내배드민턴장",
+      "naverAddress": "경기 의정부시 신곡동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 206,
+      "query": "송산배수지테니스장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/19234685",
+      "naverPlaceId": "19234685",
+      "naverName": "송산배수지테니스장",
+      "naverAddress": "경기 의정부시 부용로214번길 51",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 208,
+      "query": "종합운동장테니스장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A2%85%ED%95%A9%EC%9A%B4%EB%8F%99%EC%9E%A5%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 209,
+      "query": "푸른마당테니스장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%91%B8%EB%A5%B8%EB%A7%88%EB%8B%B9%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "푸른마당테니스장",
+      "naverAddress": "경기 의정부시 민락동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 211,
+      "query": "직동축구장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A7%81%EB%8F%99%EC%B6%95%EA%B5%AC%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "직동축구장",
+      "naverAddress": "경기 의정부시 의정부동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 212,
+      "query": "곤제축구장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A4%EC%A0%9C%EC%B6%95%EA%B5%AC%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 213,
+      "query": "활기축구장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%99%9C%EA%B8%B0%EC%B6%95%EA%B5%AC%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+      "naverPlaceId": null,
+      "naverName": "활기체육공원축구장스탠드",
+      "naverAddress": "경기 의정부시 민락동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 214,
+      "query": "천보탁구장 의정부",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1839175705",
+      "naverPlaceId": "1839175705",
+      "naverName": "천보탁구장",
+      "naverAddress": "경기 의정부시 금오동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 215,
+      "query": "민락국민체육센터 의정부",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1271854175",
+      "naverPlaceId": "1271854175",
+      "naverName": "민락 국민체육센터",
+      "naverAddress": "경기 의정부시 민락동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 220,
+      "query": "광명동굴 광명",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4%20%EA%B4%91%EB%AA%85",
+      "naverPlaceId": null,
+      "naverName": "광명동굴",
+      "naverAddress": "경기 광명시 가학동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 222,
+      "query": "광명새움병원 광명",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/33400003",
+      "naverPlaceId": "33400003",
+      "naverName": "광명새움병원",
+      "naverAddress": "경기 광명시 소하동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 223,
+      "query": "군포보건소 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 224,
+      "query": "평생학습원 군포",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+      "naverPlaceId": null,
+      "naverName": "군포시평생학습원",
+      "naverAddress": "경기 군포시 당동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 236,
+      "query": "오산시 문화예술회관 오산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%ED%9A%8C%EA%B4%80%20%EC%98%A4%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": "오산문화예술회관 대공연장",
+      "naverAddress": "경기 오산시 오산동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 237,
+      "query": "오산시 보건소 오산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%98%A4%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": "오산시보건소",
+      "naverAddress": "경기 오산시 오산동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 238,
+      "query": "오산시 미니어처 빌리지 오산",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1038507442",
+      "naverPlaceId": "1038507442",
+      "naverName": "오산미니어처빌리지",
+      "naverAddress": "경기 오산시 내삼미동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 239,
+      "query": "오산아이드림센터 오산",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1612611210",
+      "naverPlaceId": "1612611210",
+      "naverName": "오산아이드림센터",
+      "naverAddress": "경기 오산시 양산동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 240,
+      "query": "오산시 반려동물테마파크 오산",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC%20%EC%98%A4%EC%82%B0",
+      "naverPlaceId": null,
+      "naverName": "오산 반려동물 테마파크",
+      "naverAddress": "경기 오산시 오산동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 243,
+      "query": "공도저류지 공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%EC%A0%80%EB%A5%98%EC%A7%80%20%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "공도저류지 공영주차장",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 244,
+      "query": "서인동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9D%B8%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "서인동공영주차장",
+      "naverAddress": "경기 안성시 서인동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 245,
+      "query": "석정동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9D%EC%A0%95%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "석정동공영주차장",
+      "naverAddress": "경기 안성시 석정동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 246,
+      "query": "동본동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35966752",
+      "naverPlaceId": "35966752",
+      "naverName": "동본동 공영주차장",
+      "naverAddress": "경기 안성시 동본동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 249,
+      "query": "아양복개천주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36444319",
+      "naverPlaceId": "36444319",
+      "naverName": "아양복개천공영주차장",
+      "naverAddress": "경기 안성시 아양동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 250,
+      "query": "가족공원공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1109202553",
+      "naverPlaceId": "1109202553",
+      "naverName": "안성마춤가족공원 공영 주차장",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 251,
+      "query": "일죽면공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%EB%A9%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 252,
+      "query": "당왕동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8B%B9%EC%99%95%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 254,
+      "query": "승두리공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%8A%B9%EB%91%90%EB%A6%AC%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "승두리공영주차장",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 259,
+      "query": "석정동3공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9D%EC%A0%95%EB%8F%993%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 260,
+      "query": "석정동2공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9D%EC%A0%95%EB%8F%992%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성시공영주차장",
+      "naverAddress": "경기 안성시 석정동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 261,
+      "query": "서운공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "서운공영주차장",
+      "naverAddress": "경기 안성시 서운면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 262,
+      "query": "봉남동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1376278980",
+      "naverPlaceId": "1376278980",
+      "naverName": "봉남동 노상 공영 주차장",
+      "naverAddress": "경기 안성시 봉남동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 263,
+      "query": "금산동공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B8%88%EC%82%B0%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "금산동공영주차장",
+      "naverAddress": "경기 안성시 금산동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 264,
+      "query": "명륜도로주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%AA%85%EB%A5%9C%EB%8F%84%EB%A1%9C%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "명륜도로 공영 주차장",
+      "naverAddress": "경기 안성시 명륜동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 265,
+      "query": "도기동임시공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%84%EA%B8%B0%EB%8F%99%EC%9E%84%EC%8B%9C%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "당왕동 제2 임시 공영 주차장",
+      "naverAddress": "경기 안성시 당왕동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 267,
+      "query": "당왕동2임시공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8B%B9%EC%99%95%EB%8F%992%EC%9E%84%EC%8B%9C%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 268,
+      "query": "공도임시주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%EC%9E%84%EC%8B%9C%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 269,
+      "query": "원곡면공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9B%90%EA%B3%A1%EB%A9%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "원곡면공영주차장",
+      "naverAddress": "경기 안성시 원곡면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 270,
+      "query": "대덕광덕공영주차장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1134083074",
+      "naverPlaceId": "1134083074",
+      "naverName": "대덕광덕공영주차장",
+      "naverAddress": "경기 안성시 대덕면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 279,
+      "query": "고삼게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1290105852",
+      "naverPlaceId": "1290105852",
+      "naverName": "고삼게이트볼장",
+      "naverAddress": "경기 안성시 고삼면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 280,
+      "query": "고삼면 테니스장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A0%EC%82%BC%EB%A9%B4%20%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": "1227136376",
+      "naverName": "아름다운천막",
+      "naverAddress": "경기 안성시 대덕면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 281,
+      "query": "공도 대림테니스장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%20%EB%8C%80%EB%A6%BC%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "대림테니스장(1코트)",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 285,
+      "query": "궁도장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B6%81%EB%8F%84%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "마춤정",
+      "naverAddress": "경기 안성시 양성면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 287,
+      "query": "금광테니스장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B8%88%EA%B4%91%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "금광테니스장(1코트)",
+      "naverAddress": "경기 안성시 금광면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 292,
+      "query": "내리 게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37141063",
+      "naverPlaceId": "37141063",
+      "naverName": "대덕면게이트볼장",
+      "naverAddress": "경기 안성시 대덕면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 295,
+      "query": "농협물류단지공원 테니스장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%86%8D%ED%98%91%EB%AC%BC%EB%A5%98%EB%8B%A8%EC%A7%80%EA%B3%B5%EC%9B%90%20%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "농협물류단지공원테니스장",
+      "naverAddress": "경기 안성시 미양면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 304,
+      "query": "미양게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/35052137",
+      "naverPlaceId": "35052137",
+      "naverName": "미양면게이트볼장",
+      "naverAddress": "경기 안성시 미양면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 307,
+      "query": "보개 게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B3%B4%EA%B0%9C%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "농아인게이트볼장",
+      "naverAddress": "경기 안성시 봉남동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 314,
+      "query": "사솔게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%82%AC%EC%86%94%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 315,
+      "query": "삼죽 사솔 게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1567796892",
+      "naverPlaceId": "1567796892",
+      "naverName": "사솔게이트볼장",
+      "naverAddress": "경기 안성시 삼죽면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 316,
+      "query": "삼죽게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1567796892",
+      "naverPlaceId": "1567796892",
+      "naverName": "사솔게이트볼장",
+      "naverAddress": "경기 안성시 삼죽면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 317,
+      "query": "삼죽면 족구장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%82%BC%EC%A3%BD%EB%A9%B4%20%EC%A1%B1%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": "1894540782",
+      "naverName": "동부체육공원 족구장",
+      "naverAddress": "경기 안성시 삼죽면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 319,
+      "query": "서안성체육센터 유료 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%95%88%EC%84%B1%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9C%A0%EB%A3%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 320,
+      "query": "서운게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37142217",
+      "naverPlaceId": "37142217",
+      "naverName": "서운게이트볼장",
+      "naverAddress": "경기 안성시 서운면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 328,
+      "query": "안성2동 게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B12%EB%8F%99%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성시게이트볼협회전용구장",
+      "naverAddress": "경기 안성시 대덕면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 331,
+      "query": "안성맞춤 배드민턴전용구장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%EC%A0%84%EC%9A%A9%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성맞춤배드민턴구장",
+      "naverAddress": "경기 안성시 보개면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 333,
+      "query": "안성맞춤 실내체육관 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EC%8B%A4%EB%82%B4%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성맞춤실내체육관",
+      "naverAddress": "경기 안성시 보개면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 334,
+      "query": "안성맞춤 실내체육관 유료 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EC%8B%A4%EB%82%B4%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%9C%A0%EB%A3%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 343,
+      "query": "양기지구 풋살장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%96%91%EA%B8%B0%EC%A7%80%EA%B5%AC%20%ED%92%8B%EC%82%B4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": "2146089662",
+      "naverName": "양기지구어린이공원 풋살구장",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 344,
+      "query": "양성 게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%96%91%EC%84%B1%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "양성면게이트볼장",
+      "naverAddress": "경기 안성시 양성면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 346,
+      "query": "원곡공공하수처리시설 풋살장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9B%90%EA%B3%A1%EA%B3%B5%EA%B3%B5%ED%95%98%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%ED%92%8B%EC%82%B4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 354,
+      "query": "일죽 족구장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%20%EC%A1%B1%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "일죽 족구장(2코트)",
+      "naverAddress": "경기 안성시 일죽면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 356,
+      "query": "일죽공공하수처리시설 축구장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1329847776",
+      "naverPlaceId": "1329847776",
+      "naverName": "일죽공공하수처리시설 축구장",
+      "naverAddress": "경기 안성시 일죽면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 357,
+      "query": "일죽테니스장 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "일죽테니스장",
+      "naverAddress": "경기 안성시 일죽면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 360,
+      "query": "죽산게이트볼장 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/1236727694",
+      "naverPlaceId": "1236727694",
+      "naverName": "죽산게이트볼구장",
+      "naverAddress": "경기 안성시 죽산면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 367,
+      "query": "안성시보건소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성시보건소",
+      "naverAddress": "경기 안성시 도기동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 368,
+      "query": "금광보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B8%88%EA%B4%91%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "금광보건지소",
+      "naverAddress": "경기 안성시 금광면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 369,
+      "query": "서운보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B4%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": "36477617",
+      "naverName": "안성시서운면보건지소",
+      "naverAddress": "경기 안성시 서운면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 370,
+      "query": "미양보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36477616",
+      "naverPlaceId": "36477616",
+      "naverName": "미양면보건지소",
+      "naverAddress": "경기 안성시 미양면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 372,
+      "query": "원곡보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13233945",
+      "naverPlaceId": "13233945",
+      "naverName": "원곡보건지소",
+      "naverAddress": "경기 안성시 원곡면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 373,
+      "query": "일죽보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "일죽보건지소",
+      "naverAddress": "경기 안성시 일죽면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 374,
+      "query": "죽산보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/36477619",
+      "naverPlaceId": "36477619",
+      "naverName": "죽산보건지소",
+      "naverAddress": "경기 안성시 죽산면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 375,
+      "query": "삼죽보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%82%BC%EC%A3%BD%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 376,
+      "query": "고삼보건지소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%A0%EC%82%BC%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "고삼보건지소",
+      "naverAddress": "경기 안성시 고삼면",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 377,
+      "query": "건천보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234019",
+      "naverPlaceId": "13234019",
+      "naverName": "건천보건진료소",
+      "naverAddress": "경기 안성시 공도읍",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 378,
+      "query": "복평보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234356",
+      "naverPlaceId": "13234356",
+      "naverName": "복평보건진료소",
+      "naverAddress": "경기 안성시 보개면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 379,
+      "query": "동평보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234251",
+      "naverPlaceId": "13234251",
+      "naverName": "동평보건진료소",
+      "naverAddress": "경기 안성시 보개면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 380,
+      "query": "개산보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B0%9C%EC%82%B0%EB%B3%B4%EA%B1%B4%EC%A7%84%EB%A3%8C%EC%86%8C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 384,
+      "query": "명목보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/2035563503",
+      "naverPlaceId": "2035563503",
+      "naverName": "명목보건진료소",
+      "naverAddress": "경기 안성시 양성면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 386,
+      "query": "방초보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234256",
+      "naverPlaceId": "13234256",
+      "naverName": "방초보건진료소",
+      "naverAddress": "경기 안성시 일죽면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 387,
+      "query": "당목보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234264",
+      "naverPlaceId": "13234264",
+      "naverName": "당목리보건진료소",
+      "naverAddress": "경기 안성시 죽산면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 388,
+      "query": "율곡보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/13234254",
+      "naverPlaceId": "13234254",
+      "naverName": "율곡보건진료소",
+      "naverAddress": "경기 안성시 삼죽면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 389,
+      "query": "쌍지보건진료소 안성",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/37140952",
+      "naverPlaceId": "37140952",
+      "naverName": "쌍지보건진료소",
+      "naverAddress": "경기 안성시 고삼면",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 390,
+      "query": "안성시미디어센터 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EB%AF%B8%EB%94%94%EC%96%B4%EC%84%BC%ED%84%B0%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": "안성미디어센터",
+      "naverAddress": "경기 안성시 현수동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 391,
+      "query": "안성맞춤랜드 안성",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%EB%9E%9C%EB%93%9C%20%EC%95%88%EC%84%B1",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 392,
+      "query": "구리시 보건소 구리",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%AC%EB%A6%AC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%AC%EB%A6%AC",
+      "naverPlaceId": null,
+      "naverName": "구리시보건소",
+      "naverAddress": "경기 구리시 인창동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 395,
+      "query": "의왕시 평생학습관 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EA%B4%80%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕시 평생학습관",
+      "naverAddress": "경기 의왕시 오전동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 396,
+      "query": "의왕시 청소년수련관 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 397,
+      "query": "의왕시 청소년상담복지센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%83%81%EB%8B%B4%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕시청소년상담복지센터 본소",
+      "naverAddress": "경기 의왕시 포일동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 399,
+      "query": "주민복지관 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A3%BC%EB%AF%BC%EB%B3%B5%EC%A7%80%EA%B4%80%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "주민복지관",
+      "naverAddress": "경기 의왕시 삼동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 400,
+      "query": "포일어울림센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%8F%AC%EC%9D%BC%EC%96%B4%EC%9A%B8%EB%A6%BC%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "더플러스카페 포일어울림센터",
+      "naverAddress": "경기 의왕시 포일동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 401,
+      "query": "백운커뮤니티센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B0%B1%EC%9A%B4%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "백운커뮤니티센터",
+      "naverAddress": "경기 의왕시 학의동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 402,
+      "query": "오전커뮤니티센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%98%A4%EC%A0%84%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "오전커뮤니티센터",
+      "naverAddress": "경기 의왕시 오전동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 403,
+      "query": "청계종합복지센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%B2%AD%EA%B3%84%EC%A2%85%ED%95%A9%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "청계종합복지센터",
+      "naverAddress": "경기 의왕시 청계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 404,
+      "query": "의왕스마트시티 퀀텀 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8B%9C%ED%8B%B0%20%ED%80%80%ED%85%80%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕스마트시티퀀텀",
+      "naverAddress": "경기 의왕시 초평동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 405,
+      "query": "장애인커뮤니티센터 안양",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%84%BC%ED%84%B0%20%EC%95%88%EC%96%91",
+      "naverPlaceId": "2050390047",
+      "naverName": "한국커뮤니티연구원 활동지원교육기관",
+      "naverAddress": "경기 안양시 동안구 관양동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 406,
+      "query": "의왕시 글로벌인재센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%9D%B8%EC%9E%AC%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕글로벌인재센터",
+      "naverAddress": "경기 의왕시 내손동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 407,
+      "query": "국민체육센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B5%AD%EB%AF%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕국민체육센터",
+      "naverAddress": "경기 의왕시 내손동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 408,
+      "query": "부곡스포츠센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "부곡스포츠센터",
+      "naverAddress": "경기 의왕시 삼동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 409,
+      "query": "포일스포츠센터 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%8F%AC%EC%9D%BC%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "포일스포츠센터",
+      "naverAddress": "경기 의왕시 포일동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 413,
+      "query": "청계배드민턴장 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%B2%AD%EA%B3%84%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%EC%9E%A5%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "청계배드민턴장",
+      "naverAddress": "경기 의왕시 청계동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 414,
+      "query": "소프트테니스장 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%86%8C%ED%94%84%ED%8A%B8%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 418,
+      "query": "의왕시 왕송호수공원 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%99%95%EC%86%A1%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "왕송호수캠핑장",
+      "naverAddress": "경기 의왕시 월암동",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 419,
+      "query": "의왕시 바라산 자연휴양림 의왕",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EB%B0%94%EB%9D%BC%EC%82%B0%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%9D%98%EC%99%95",
+      "naverPlaceId": null,
+      "naverName": "의왕바라산자연휴양림",
+      "naverAddress": "경기 의왕시 학의동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 420,
+      "query": "포천시 공영주차장 포천",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%8F%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%ED%8F%AC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "포천반월아트홀 공영 주차장",
+      "naverAddress": "경기 포천시 군내면",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 421,
+      "query": "양평군 보건소 양평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EA%B5%B0%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%96%91%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 422,
+      "query": "양평군 장사시설 양평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EA%B5%B0%20%EC%9E%A5%EC%82%AC%EC%8B%9C%EC%84%A4%20%EC%96%91%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": "양평장례식장",
+      "naverAddress": "경기 양평군 양평읍",
+      "verificationStatus": "review_name_or_region_mismatch",
+      "verified": false
+    },
+    {
+      "sourceRow": 423,
+      "query": "양평군 평생학습센터 양평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EA%B5%B0%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%84%BC%ED%84%B0%20%EC%96%91%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": "양평군 평생학습센터",
+      "naverAddress": "경기 양평군 양평읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 427,
+      "query": "여주추모공원 여주",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%97%AC%EC%A3%BC%EC%B6%94%EB%AA%A8%EA%B3%B5%EC%9B%90%20%EC%97%AC%EC%A3%BC",
+      "naverPlaceId": null,
+      "naverName": "여주추모공원",
+      "naverAddress": "경기 여주시 가남읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 429,
+      "query": "동두천시 보건소 동두천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%99%EB%91%90%EC%B2%9C%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EB%8F%99%EB%91%90%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "동두천시보건소",
+      "naverAddress": "경기 동두천시 생연동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 432,
+      "query": "동두천시 평생학습관 동두천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EB%8F%99%EB%91%90%EC%B2%9C%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EA%B4%80%20%EB%8F%99%EB%91%90%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "동두천시 평생학습관",
+      "naverAddress": "경기 동두천시 지행동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 433,
+      "query": "과천시청소년수련관 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "과천시청소년수련관",
+      "naverAddress": "경기 과천시 문원동",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 434,
+      "query": "과천시민회관 과천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EB%AF%BC%ED%9A%8C%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 435,
+      "query": "관문실내체육관 과천",
+      "naverMapUrl": "https://map.naver.com/p/entry/place/19061067",
+      "naverPlaceId": "19061067",
+      "naverName": "관문실내체육관",
+      "naverAddress": "경기 과천시 관문동",
+      "verificationStatus": "verified_exact_place",
+      "verified": true
+    },
+    {
+      "sourceRow": 437,
+      "query": "조종반다비체육관 가평",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%A1%B0%EC%A2%85%EB%B0%98%EB%8B%A4%EB%B9%84%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EA%B0%80%ED%8F%89",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    },
+    {
+      "sourceRow": 439,
+      "query": "한탄강관광지오토캠핑장 연천",
+      "naverMapUrl": "https://map.naver.com/p/search/%ED%95%9C%ED%83%84%EA%B0%95%EA%B4%80%EA%B4%91%EC%A7%80%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5%20%EC%97%B0%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "한탄강관광지 오토캠핑장",
+      "naverAddress": "경기 연천군 전곡읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 440,
+      "query": "세계캠핑체험존 연천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%84%B8%EA%B3%84%EC%BA%A0%ED%95%91%EC%B2%B4%ED%97%98%EC%A1%B4%20%EC%97%B0%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": "연천세계캠핑체험존",
+      "naverAddress": "경기 연천군 전곡읍",
+      "verificationStatus": "verified_first_result",
+      "verified": true
+    },
+    {
+      "sourceRow": 441,
+      "query": "연천재인폭포오토캠핑장 연천",
+      "naverMapUrl": "https://map.naver.com/p/search/%EC%97%B0%EC%B2%9C%EC%9E%AC%EC%9D%B8%ED%8F%AD%ED%8F%AC%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5%20%EC%97%B0%EC%B2%9C",
+      "naverPlaceId": null,
+      "naverName": null,
+      "naverAddress": null,
+      "verificationStatus": "no_search_result",
+      "verified": false
+    }
+  ]
+}

@@ -36,7 +36,15 @@ describe('PX data', () => {
     expect(pxStores.every((item) => item.svgX !== null && item.svgX >= 0 && item.svgX <= 800)).toBe(true)
     expect(pxStores.every((item) => item.svgY !== null && item.svgY >= 0 && item.svgY <= 944)).toBe(true)
     expect(pxStores.every((item) => item.naverMapUrl.startsWith('https://'))).toBe(true)
+    expect(pxStores.every((item) => /^https:\/\/map\.naver\.com\/p\/entry\/place\/\d+$/.test(item.naverMapUrl))).toBe(true)
+    expect(new Set(pxStores.map((item) => item.naverPlaceId)).size).toBe(49)
     expect(pxStores.every((item) => item.welfarePortalUrl === 'https://www.welfare.mil.kr')).toBe(true)
+  })
+
+  it('keeps the verified PX search aliases used to resolve Naver places', () => {
+    expect(pxStores.find((item) => item.name === '박달')?.naverMapQuery).toBe('국군복지단 박달마트 안양')
+    expect(pxStores.find((item) => item.name === '선봉')?.naverMapQuery).toBe('국군복지단 선봉영외마트')
+    expect(pxStores.every((item) => item.naverMapVerified)).toBe(true)
   })
 
   it('presents compact official time ranges with a readable separator', () => {

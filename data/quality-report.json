@@ -1,8 +1,8 @@
 {
   "dataDate": "2026-04-30",
   "sourceFile": "facilities-2026-04-30.xlsx",
-  "generatedAt": "2026-07-15T07:55:12.999Z",
-  "total": 441,
+  "generatedAt": "2026-07-16T05:04:44.410Z",
+  "total": 440,
   "categories": {
     "교육": 25,
     "기타": 56,
@@ -10,7 +10,7 @@
     "숙박&관광": 16,
     "의료": 95,
     "주차": 57,
-    "체육": 150
+    "체육": 149
   },
   "regions": [
     "가평",
@@ -45,16 +45,22 @@
     "화성"
   ],
   "missingAddress": 183,
-  "missingPhone": 355,
-  "missingHomepage": 356,
+  "missingPhone": 354,
+  "missingHomepage": 355,
   "missingBenefit": 2,
   "categoryReview": 15,
   "regionMismatch": 1,
   "recordTypes": {
-    "facility": 258,
+    "facility": 257,
     "facility_group": 59,
     "benefit_policy": 15,
     "facility_unlocated": 109
+  },
+  "naverMap": {
+    "locatable": 257,
+    "verified": 169,
+    "exactPlaceLinks": 71,
+    "missingLinks": 0
   },
   "reviewRows": [
     {
@@ -125,7 +131,7 @@
       ]
     },
     {
-      "sourceRow": 168,
+      "sourceRow": 167,
       "name": "화성시 관광지 부설주차장",
       "jurisdictionRaw": "화성",
       "categoryRaw": "숙박·관광",
@@ -138,7 +144,7 @@
       ]
     },
     {
-      "sourceRow": 204,
+      "sourceRow": 203,
       "name": "의정부종합운동장 부설주차장",
       "jurisdictionRaw": "의정부",
       "categoryRaw": "체육",
@@ -149,7 +155,7 @@
       ]
     },
     {
-      "sourceRow": 228,
+      "sourceRow": 227,
       "name": "회암사지박물관 및 양주시립미술관",
       "jurisdictionRaw": "양주",
       "categoryRaw": "기타",
@@ -162,7 +168,7 @@
       ]
     },
     {
-      "sourceRow": 229,
+      "sourceRow": 228,
       "name": "공공체육시설",
       "jurisdictionRaw": "양주",
       "categoryRaw": "기타",
@@ -175,7 +181,7 @@
       ]
     },
     {
-      "sourceRow": 230,
+      "sourceRow": 229,
       "name": "보건소 및 보건지소, 보건진료소",
       "jurisdictionRaw": "양주",
       "categoryRaw": "기타",
@@ -188,7 +194,7 @@
       ]
     },
     {
-      "sourceRow": 233,
+      "sourceRow": 232,
       "name": "오산시 공공청사 및 공공시설 부설주차장",
       "jurisdictionRaw": "오산",
       "categoryRaw": "기타",
@@ -201,7 +207,7 @@
       ]
     },
     {
-      "sourceRow": 234,
+      "sourceRow": 233,
       "name": "오산시 공영주차장",
       "jurisdictionRaw": "오산",
       "categoryRaw": "기타",
@@ -213,7 +219,7 @@
       ]
     },
     {
-      "sourceRow": 235,
+      "sourceRow": 234,
       "name": "오산시 체육시설",
       "jurisdictionRaw": "오산",
       "categoryRaw": "기타",
@@ -225,7 +231,7 @@
       ]
     },
     {
-      "sourceRow": 237,
+      "sourceRow": 236,
       "name": "오산시 문화예술회관",
       "jurisdictionRaw": "오산",
       "categoryRaw": "기타",
@@ -236,7 +242,7 @@
       ]
     },
     {
-      "sourceRow": 238,
+      "sourceRow": 237,
       "name": "오산시 보건소",
       "jurisdictionRaw": "오산",
       "categoryRaw": "기타",
@@ -247,7 +253,7 @@
       ]
     },
     {
-      "sourceRow": 393,
+      "sourceRow": 392,
       "name": "구리시 보건소",
       "jurisdictionRaw": "구리",
       "categoryRaw": "기타",
@@ -258,7 +264,7 @@
       ]
     },
     {
-      "sourceRow": 406,
+      "sourceRow": 405,
       "name": "장애인커뮤니티센터",
       "jurisdictionRaw": "의왕",
       "categoryRaw": "기타",
